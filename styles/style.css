@@ -243,23 +243,34 @@ footer{
     
     /*======== top section ===========*/
     
-    .top-section{
-        display: flex;
-        flex-direction: column;
-    }
+   
     
     .top-container{
         width: 360px;
         height: 695px;
         background-color: #2D25A0;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 47px;
+        
     }
-    
+    .flexible{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-text{
+        width: 278px;
+        height: 212px;
+
+    }
     .top-text h1{
 
         width: 278px;
         height: 138px;
         font-size: 36px;
+        line-height: 50px;
         font-weight: bold;
         margin-top: 112px;
         margin-left: 10px;
@@ -271,12 +282,15 @@ footer{
         width: 168px;
         height: 44px;
         padding: 10px 24px;
+        margin-left: 10px;
         
     }
     .flexible .banner img{
         
         width: 329px;
         height: 259.17px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     
     
