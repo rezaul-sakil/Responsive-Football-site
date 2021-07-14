@@ -4,18 +4,23 @@
 body{
    
     margin: 0px;
-      font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
     display: flex; 
     flex-direction: column;
     align-items: center; 
-    
+}
+
+p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #6C6C6C;
 }
 
 /* =================
-    header style 
+    Top section
 =====================*/
 .top-container{
     width: 1440px;
@@ -161,7 +166,7 @@ main{
     line-height: 28px;
     font-weight: normal;
     margin-top: 0px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 .highlight-text a{
     
@@ -228,3 +233,143 @@ footer{
     height: 31px;
     text-align: center;
 }
+
+
+/*================
+     media query 
+==================*/
+/* for mobile devices */
+@media only screen  and (width:360px) {
+    
+    /*======== top section ===========*/
+    
+    .top-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .top-container{
+        width: 360px;
+        height: 695px;
+        background-color: #2D25A0;
+        margin-bottom: 47px;
+    }
+    
+    .top-text h1{
+
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 112px;
+        margin-left: 10px;
+    }
+   
+    
+    .top-text a{
+        
+        width: 168px;
+        height: 44px;
+        padding: 10px 24px;
+        
+    }
+    .flexible .banner img{
+        
+        width: 329px;
+        height: 259.17px;
+    }
+    
+    
+
+    /*========== player section ===============*/
+    .container{
+        width: 360px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player{
+        width: 300px;
+        height: 426px;
+        padding: 15px 15px 33px 15px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        margin-left: 15px;
+        margin-right: 15px;
+        grid-row-gap: 24px;
+
+    }
+
+    /* ======= highlight section ============ */
+    .highlight-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .highlight-text{
+        width: 329px;
+        height: 299px;
+        color: #6C6C6C;
+        font-size: 16px; 
+        margin-left: 15px;
+        margin-right: 16px;
+        margin-top: 60px;
+        margin-bottom: 29px;
+       
+    }
+    .highlight-text h2{
+        width: 294px;
+        height: 80px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-text p{
+        width: 329px;
+        height: 143px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+
+    .highlight-thumbnail img{
+        width: 328px;
+        height: 248px;
+        margin-left:16px;
+        margin-right: 16px;
+        margin-top: 29px;
+        margin-bottom: 43px;
+        
+    }
+    .highlight-text a{
+        width: 173px;
+        height: 44px;
+    }
+    
+    /* ========== footer ===============*/
+   
+    
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-box{
+        width: 280px;
+        height: 180px;
+        margin-bottom: 100px;
+        
+    }
+    .footer-logo img{
+        width: 150px;
+        height: 63px;
+    }
+    
+    .footer-box .icon span{
+        width: 170px;
+        height: 32px;
+    }
+    .footer-box .copyright p{
+        width: 236px;
+        height: 31px;
+    }
+}  
