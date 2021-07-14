@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* ======== common selction =========*/
+body{
+   
+    margin: 0px;
+      font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+/* =================
+    header style 
+=====================*/
+.top-container{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+
+
+
+ 
+.top-text h1{
+    
+    width: 485px;
+    height: 230px;
+    box-sizing: border-box;
+    margin-top: 207px;
+    margin-left: 156px;
+    margin-bottom: 27px;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.top-text a{
+    
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 24px;
+   
+    margin-left: 156px;
+    
+    
+}
+ 
+.flexible .banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+}
+
+
+
+
+
+/*----==========================
+    style players section
+===========================------ */
+.container{
+    width: 1050px;
+   
+}
+.players{
+     
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: 30px; */
+    grid-row-gap: 27px;
+    
+}
+
+.player{
+    width: 300px;
+    height: 426px;
+    padding: 15px 15px 33px 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+ .player .player-photo img{
+    width: 300px;
+    height: 256px;
+    
+}
+
+.player .player-info{
+    width: 300px;
+    height: 154px;
+    margin-top: 16px;
+    margin-bottom: 33px;
+}
+
+.player-info h2{
+    height: 40px;
+   margin: 0px;
+}
+
+.player-info p{
+  
+    color: #6C6C6C;
+    font-size: 16px;
+    
+}
+
+
+/* ====================
+   highlight section 
+====================== */
+
+.highlight-thumbnail img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-right: 156px;
+    margin-bottom: 158px;
+}
+
+.highlight-text{
+    width: 469px;
+    height: 310.36px;
+    margin-top: 224px;
+    margin-left: 182px;
+    margin-right: 66px;
+}
+.highlight-text h2{
+    width: 469px;
+    height: 120px;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.highlight-text p{
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.highlight-text a{
+    
+    width: 172px;
+    height: 44px;
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+
+/*=====================
+      footer style 
+===================== */
+
+footer{ 
+    display: flex;
+    justify-content: center;  
+}
+
+.footer-box{
+    width: 483.87px;
+    height: 213px; 
+    margin-bottom: 63px;
+    
+}
+
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.footer-box .icon{
+    display: flex;
+    justify-content: center;
+}    
+.footer-box .icon span{
+    width: 170px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon span a{
+    text-decoration: none;
+    color: black;
+}
+.icon span i{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #969BAB;
+}
+.footer-box .copyright{
+    display: flex;
+    justify-content: center;
+}
+.footer-box .copyright p{
+    width: 236px;
+    height: 31px;
+    text-align: center;
+}
